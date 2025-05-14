@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DOM Manipulation Demo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1 id="main-title">Welcome to My Interactive Page</h1>
+  </header>
+
+  <main>
+    <section>
+      <p id="description">This paragraph will be changed dynamically.</p>
+      <button onclick="changeText()">Change Text</button>
+    </section>
+
+    <section>
+      <p id="color-box" style="padding: 10px; background-color: lightgray;">
+        Click the button to change my color!
+      </p>
+      <button onclick="changeColor()">Change Color</button>
+    </section>
+
+    <section>
+      <div id="dynamic-container"></div>
+      <button onclick="addElement()">Add Element</button>
+      <button onclick="removeElement()">Remove Element</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Web Project</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
